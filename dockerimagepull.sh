@@ -4,7 +4,7 @@
 
 #Capture docker container details
 containerimages=$(docker ps --format "{{.Image}}")
-echo "$containerimages"
+#echo "$containerimages"
 
 #Iterate through each image and pull
 for item in $containerimages
